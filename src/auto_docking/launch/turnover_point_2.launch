@@ -1,0 +1,17 @@
+<launch>
+
+  <node pkg="auto_docking" type="turnover_point_class" name="turnover_point_class">
+    <param name="a_x" value="-2.73" type="double"/>
+    <param name="a_y" value="0.27" type="double"/>
+    <param name="a_z" value="-0.150" type="double"/>
+    <param name="a_w" value="0.988" type="double"/>
+    <param name="b_x" value="-2.762" type="double"/>
+    <param name="b_y" value="0.34" type="double"/>
+    <param name="b_z" value="-0.121" type="double"/>
+    <param name="b_w" value="0.992" type="double"/>
+    <param name="c_x" value="-2.75" type="double"/>
+    <param name="c_y" value="0.29" type="double"/>
+    <param name="c_z" value="-0.182" type="double"/>
+    <param name="c_w" value="0.983" type="double"/>
+ </node>  
+</launch>
